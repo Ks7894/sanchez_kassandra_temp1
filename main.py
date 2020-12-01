@@ -1,5 +1,4 @@
-
-tempF=70
+tempF=68-72
 print("Temperature" + input.temperature(TemperatureUnit.FAHRENHEIT))
 if input.temperature(TemperatureUnit.FAHRENHEIT) > tempF:
     light.set_pixel_color(0, light.rgb(255,0,0))
@@ -12,7 +11,7 @@ if input.temperature(TemperatureUnit.FAHRENHEIT) > tempF:
     light.set_pixel_color(7, light.rgb(255,0,0))
     light.set_pixel_color(8, light.rgb(255,0,0))
     light.set_pixel_color(9, light.rgb(255,0,0))
-elif input.temperature(TemperatureUnit.FAHRENHEIT) < tempF + input.temperature(TemperatureUnit.FAHRENHEIT) <40:
+elif input.temperature(TemperatureUnit.FAHRENHEIT) < tempF + input.temperature(TemperatureUnit.FAHRENHEIT) <73:
     light.set_pixel_color(0, light.rgb(0,255,0))
     light.set_pixel_color(1, light.rgb(0,255,0))
     light.set_pixel_color(2, light.rgb(0,255,0))

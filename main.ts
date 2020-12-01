@@ -1,4 +1,4 @@
-let tempF = 70
+let tempF = 68 - 72
 console.log("Temperature" + input.temperature(TemperatureUnit.Fahrenheit))
 if (input.temperature(TemperatureUnit.Fahrenheit) > tempF) {
     light.setPixelColor(0, light.rgb(255, 0, 0))
@@ -11,7 +11,7 @@ if (input.temperature(TemperatureUnit.Fahrenheit) > tempF) {
     light.setPixelColor(7, light.rgb(255, 0, 0))
     light.setPixelColor(8, light.rgb(255, 0, 0))
     light.setPixelColor(9, light.rgb(255, 0, 0))
-} else if (input.temperature(TemperatureUnit.Fahrenheit) < tempF + input.temperature(TemperatureUnit.Fahrenheit) && tempF + input.temperature(TemperatureUnit.Fahrenheit) < 40) {
+} else if (input.temperature(TemperatureUnit.Fahrenheit) < tempF + input.temperature(TemperatureUnit.Fahrenheit) && tempF + input.temperature(TemperatureUnit.Fahrenheit) < 73) {
     light.setPixelColor(0, light.rgb(0, 255, 0))
     light.setPixelColor(1, light.rgb(0, 255, 0))
     light.setPixelColor(2, light.rgb(0, 255, 0))
